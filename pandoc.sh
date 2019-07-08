@@ -19,8 +19,8 @@ elif [ $# -eq 2 ]; then
     OUTPUT="$2"
 fi
 
-echo "{$1}をpdf化します"
+echo "$1をpdf化します"
 JA_QUERY="-V documentclass=ltjarticle --latex-engine=lualatex"
-pandoc $1 -o $OUTPUT JA_QUERY
+pandoc $1 -o $OUTPUT $JA_QUERY
 
 exit 0

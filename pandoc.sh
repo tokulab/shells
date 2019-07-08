@@ -5,7 +5,7 @@ if [ $# = 0 ]; then
     cat << EOS
 
 ヘルプペ〜ジ🐌
-pandoc system v0.9 by umemiya
+pandoc system v1.0 by umemiya
 
 $ pandoc.sh \$input_file.md \$output_file.pdf
 
